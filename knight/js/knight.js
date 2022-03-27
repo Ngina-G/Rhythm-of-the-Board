@@ -114,5 +114,5 @@ function cordinateExists(arr, a, b) {
       return parentCont;
     }
     
-    document.getElementById("root").appendChild(chessBoard(1,1));
+    document.getElementById("root").appendChild(chessBoard(1,2));
     
