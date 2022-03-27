@@ -64,6 +64,8 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## Technologies Used
 HTML, CSS and JAVASCRIPT.
 
+##### to see full commits visit this link https://github.com/Ngina-G/Chess-game
+
 ### License
  MIT License
 
