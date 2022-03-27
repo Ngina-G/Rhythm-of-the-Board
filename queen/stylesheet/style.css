@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+.cell {
+    height: 30px;
+    width: 30px;
+    border: 1.5px solid grey;
+    border-style: inset;
+}
+
+.blackcell {
+    background-color: green;
+}
+
+.whitecell {
+    background-color: white;
+}
+.random{
+    background-color: red;
+}
