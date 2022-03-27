@@ -193,5 +193,5 @@ function possibleRookCoordinates(l,m){
     return parentCont;
   }
   
-  document.getElementById("root").appendChild(chessBoard(1,1));
+  document.getElementById("root").appendChild(chessBoard(1,4));
   

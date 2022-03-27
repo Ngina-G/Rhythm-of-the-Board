@@ -15,7 +15,7 @@ function cordinateExists(arr, a, b) {
       let anotherplace = [];
       let myCoordinates = [
         { x: x +1 ,  y: y},
-        {x:x, y:y-1}
+        {x:x, y:y}
       ];
       for (let i = 0; i < myCoordinates.length; i++) {
         anotherplace.push([myCoordinates[i].x, myCoordinates[i].y]);
@@ -43,7 +43,7 @@ function cordinateExists(arr, a, b) {
     
       if (p) {
         let img = document.createElement("img");
-       img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVOxBgsD4riWgYADyBwDeBFgXOSPCcmd9_7g&usqp=CAU";
+       img.src="/assets/pawn.jpeg";
         img.style.height = "100%";
         img.setAttribute("alt", "the img");
         div.appendChild(img);
@@ -92,4 +92,4 @@ function cordinateExists(arr, a, b) {
       return parentCont;
     }
     
-    document.getElementById("root").appendChild(chessBoard(1,1));
+    document.getElementById("root").appendChild(chessBoard(1,5));

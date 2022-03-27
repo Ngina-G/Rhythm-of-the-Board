@@ -65,7 +65,7 @@ function cordinateExists(arr, a, b) {
     
       if (p) {
         let img = document.createElement("img");
-       img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvJb-MgBfKWNO4MDvshSCSGdLIg-a2n3QsRA&usqp=CAU";
+       img.src="/assets/knight.jpeg";
         img.style.height = "100%";
         img.setAttribute("alt", "the img");
         div.appendChild(img);

@@ -28,16 +28,16 @@ function cordinateExists(arr, a, b) {
   }
   function possibleRookCoordinates(x=1, y=1) {
     let anotherplace = [];
-    let myCoordinates = [
-      { x: x + 1, y: y + 2 },
-      { x: x + 2, y: y + 1 },
-      { x: x + 2, y: y - 1 },
-      { x: x + 1, y: y - 2 },
-      { x: x - 1, y: y - 2 },
-      { x: x - 2, y: y - 1 },
-      { x: x - 2, y: y + 1 },
-      { x: x - 1, y: y + 2 },
-    ];
+   let myCoordinates = [
+     { x: x, y: y + 1 },
+     { x: x + 1, y: y + 1 },
+     { x: x + 1, y: y },
+     { x: x + 1, y: y - 1 },
+     { x: x, y: y - 1 },
+     { x: x - 1, y: y - 1 },
+     { x: x - 1, y: y },
+     { x: x - 1, y: y + 1 },
+   ];
     for (let i = 0; i < myCoordinates.length; i++) {
       anotherplace.push([myCoordinates[i].x, myCoordinates[i].y]);
     }
@@ -65,7 +65,7 @@ function cordinateExists(arr, a, b) {
     
       if (p) {
         let img = document.createElement("img");
-       img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvJb-MgBfKWNO4MDvshSCSGdLIg-a2n3QsRA&usqp=CAU";
+       img.src="/assets/king.jpeg";
         img.style.height = "100%";
         img.setAttribute("alt", "the img");
         div.appendChild(img);
@@ -114,5 +114,5 @@ function cordinateExists(arr, a, b) {
       return parentCont;
     }
     
-    document.getElementById("root").appendChild(chessBoard(1,1));
+    document.getElementById("root").appendChild(chessBoard(1,5));
     
